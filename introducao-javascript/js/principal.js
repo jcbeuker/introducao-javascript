@@ -47,6 +47,8 @@ botaoAdicionar.addEventListener("click", function (event) {
     var gordura = form.gordura.value;
 
     var pacienteTr = document.createElement("tr");
+    pacienteTr.classList.add("paciente");
+    pacienteTr.setAttribute("id","paciente_5");
 
     var nomeTd = document.createElement("td");
     var pesoTd = document.createElement("td");
