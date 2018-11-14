@@ -77,7 +77,6 @@ function validaPaciente(paciente) {
     if (paciente.altura.length == 0) erros.push("A altura não pode ser em branco");
     if (!validaAltura(paciente.altura)) erros.push("A altura é inválida.");
     if (paciente.gordura.length == 0) erros.push("A gordura não pode ser em branco.");
-    console.log("ERROS");
 
     return erros;
 }
